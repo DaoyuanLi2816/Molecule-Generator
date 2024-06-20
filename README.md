@@ -16,7 +16,7 @@ The project consists of the following Python scripts:
 
 - Generates over 100,000 synthetic SMILES strings.
 - Only A and B repeat units are included.
-- No molecule contains more than six consecutive H repeat units.
+- No molecule contains more than six consecutive A repeat units.
 - All molecules in the dataset are saturated and contain no rings.
 
 ## Installation
@@ -85,7 +85,7 @@ Generates interpolated SMILES strings between two given SMILES strings using the
 ### `synthetic_dataset.py`
 
 Generates a synthetic dataset of SMILES strings based on specified constraints:
-- No molecule contains more than six consecutive H repeat units.
+- No molecule contains more than six consecutive A repeat units.
 - All molecules in the dataset are saturated and contain no rings.
 
 ## Example
