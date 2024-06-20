@@ -25,8 +25,8 @@ The project consists of the following Python scripts:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/vae-smiles-generator.git
-    cd vae-smiles-generator
+    git clone https://github.com/DaoyuanLi2816/Molecule-Generator.git
+    cd Molecule-Generator
     ```
 
 2. Install the required dependencies:
@@ -70,53 +70,10 @@ python interpolate.py
 ```
 This will output SMILES strings that are interpolations between the two input SMILES strings in the latent space of the trained VAE.
 
-## Scripts
-
-### `VAE.py`
-
-Defines the VAE model and includes functions for training and testing the model.
-
-### `generate.py`
-
-Generates new SMILES strings by perturbing the latent space of the trained VAE.
-
-### `interpolate.py`
-
-Generates interpolated SMILES strings between two given SMILES strings using the latent space of the trained VAE.
-
-### `synthetic_dataset.py`
-
-Generates a synthetic dataset of SMILES strings based on specified constraints:
-- No molecule contains more than six consecutive A repeat units.
-- All molecules in the dataset are saturated and contain no rings.
-
-## Example
-
-Here is an example of how to generate a synthetic dataset, train the VAE model, and generate new SMILES strings:
-
-1. Generate synthetic dataset:
-    ```bash
-    python synthetic_dataset.py
-    ```
-
-2. Train the VAE model:
-    ```bash
-    python VAE.py
-    ```
-
-3. Generate new SMILES strings:
-    ```bash
-    python generate.py
-    ```
-
-4. Interpolate between two SMILES strings:
-    ```bash
-    python interpolate.py
-    ```
 
 ## Contributing
 
-If you would like to contribute to this project, please open an issue or submit a pull request. We welcome contributions from the community.
+If you would like to contribute to this project, please open an issue or submit a pull request. We welcome contributions from the community. 
 
 ## License
 
