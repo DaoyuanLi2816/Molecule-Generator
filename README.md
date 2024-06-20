@@ -15,7 +15,7 @@ The project consists of the following Python scripts:
 ## Features
 
 - Generates over 100,000 synthetic SMILES strings.
-- Only H and T repeat units are included.
+- Only A and B repeat units are included.
 - No molecule contains more than six consecutive H repeat units.
 - All molecules in the dataset are saturated and contain no rings.
 
