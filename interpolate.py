@@ -21,7 +21,7 @@ def interpolate_smiles(model_path, smiles_1, smiles_2, tokenizer, max_len, devic
         temperature (float): Temperature for sampling.
 
     Returns:
-        list of str: List of interpolated SMILES strings.
+        list of str: List of interpolated SMILES strings. 
     """
     # Load the model
     vocab_size = 6
