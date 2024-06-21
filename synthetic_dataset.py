@@ -9,7 +9,7 @@ def consecutive_hydroxyls(chain):
     Check if the chain contains five or more consecutive hydroxyl groups.
 
     Args:
-        chain (list of str): The carbon chain with possible hydroxyl groups.
+        chain (list of str): The carbon chain with possible hydroxyl groups. 
 
     Returns:
         bool: True if there are five or more consecutive hydroxyl groups, False otherwise.
