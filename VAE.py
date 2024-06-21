@@ -203,5 +203,5 @@ if __name__ == "__main__":
         test_loss, test_accuracy = test(model, test_loader, device, beta, gamma)
         print(f"Test Loss: {test_loss:.4f}, Test Accuracy: {test_accuracy:.4f}")
 
-    # Save the model
+    # Save the trained model
     torch.save(model.state_dict(), 'beta_tc_vae_model.pth')
