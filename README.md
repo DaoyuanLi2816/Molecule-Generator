@@ -73,8 +73,8 @@ This will output SMILES strings that are interpolations between the two input SM
 
 ## Contributing
 
-If you would like to contribute to this project, please open an issue or submit a pull request. We welcome contributions from the community. Thanks!
+If you would like to contribute to this project, please open an issue or submit a pull request. We welcome contributions from the community.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
