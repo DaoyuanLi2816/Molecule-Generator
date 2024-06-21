@@ -20,7 +20,7 @@ def generate_nearby_smiles(model_path, smiles, tokenizer, max_len, num_samples, 
         distance_multiplier (float): Multiplier to adjust the distance in latent space.
 
     Returns:
-        list of str: List of generated SMILES strings.
+        list of str: List of generated SMILES strings. 
     """
     # Load the model
     vocab_size = 6
