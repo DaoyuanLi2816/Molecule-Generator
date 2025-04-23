@@ -1,7 +1,7 @@
 
 # VAE-Based SMILES String Generator
 
-This project is a Variational Autoencoder (VAE)-based molecular SMILES string generator. It generates molecules composed of CHOH/CH2OH (referred to as A) and CH/CH2/CH3 (referred to as B) repeat units. The generated molecules are saturated and contain no rings.
+This project is a Variational Autoencoder (VAE)-based molecular SMILES string generator. It generates molecules composed of CHOH/CH2OH (referred to as A) and CH/CH2/CH3 (referred to as B) repeat units. The generated molecules are saturated and contain no rings. 
 
 ![Image](./molecule.png)
 
