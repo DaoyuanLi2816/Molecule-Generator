@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "molgen"
-version = "0.1.1"
+version = "0.2.0"
 description = "A lightweight toolkit for de novo molecular generation (SMILES/SELFIES; CharRNN, MolGPT, VAE)"
 readme = "README.md"
 requires-python = ">=3.9"

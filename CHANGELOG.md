@@ -6,6 +6,8 @@ All notable changes to this project are documented here. The format is based on
 
 ## [Unreleased]
 
+## [0.2.0]
+
 ### Changed
 - `BetaTCVAE` now optimizes a **genuine β-TC-VAE objective**: the KL term is
   decomposed into index-code mutual information, **total correlation**, and the
