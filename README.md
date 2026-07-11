@@ -16,7 +16,7 @@ A lightweight, modern toolkit for **de novo molecular generation** with deep
 sequence models. It provides atom-level SMILES and SELFIES tokenizers, several
 generator architectures, a mixed-precision training loop, configurable
 sampling, and a MOSES-style evaluation suite — small enough to train on a single
-GPU in minutes, but reflecting current practice.
+GPU in minutes, while still reflecting current practice.
 
 ![molgen — a molecular generation pipeline: input, tokenize, model, sample, evaluate](https://raw.githubusercontent.com/DaoyuanLi2816/molgen/main/assets/pipeline.png)
 
@@ -129,6 +129,11 @@ Unlike the autoregressive models, the VAE supports **latent-space** operations:
 generate molecules *near* a seed, or *interpolate* between two molecules. Pair it
 with the SELFIES tokenizer (`--tokenizer selfies`, the default for these
 commands) so every decoded point is a syntactically valid molecule.
+
+> **Note:** these commands need `molgen` **0.2.0+**. The current PyPI release is
+> **0.1.1**, which predates the `vae-train` / `vae-sample` / `vae-interpolate` CLI
+> commands — until 0.2.0 ships, install from source (see
+> [Installation](#installation)) to use this section.
 
 ![VAE encoder, latent space, and decoder](https://raw.githubusercontent.com/DaoyuanLi2816/molgen/main/molecule.png)
 
