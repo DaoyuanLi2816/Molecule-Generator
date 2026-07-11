@@ -1,10 +1,12 @@
-"""Command-line interface: train, sample, and evaluate molecule generators.
+"""Command-line interface: train, sample, evaluate, and explore VAE latent space.
 
 Examples
 --------
     molgen train --data molecules.smi --model molgpt --epochs 20 --out model.pt
     molgen sample --checkpoint model.pt --num 1000 --out generated.smi
     molgen eval --generated generated.smi --reference molecules.smi
+    molgen vae-train --data molecules.smi --epochs 20 --out vae.pt
+    molgen vae-sample --checkpoint vae.pt --seed-smiles "c1ccccc1" --num 100
 """
 
 from __future__ import annotations
