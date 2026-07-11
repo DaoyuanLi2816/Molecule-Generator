@@ -86,7 +86,7 @@
       <text x="706" y="102" font-size="14" font-weight="700" fill="#f1f5f9">MOSES-style</text>
       <text x="706" y="120" font-size="14" font-weight="700" fill="#f1f5f9">evaluation</text>
       <text x="706" y="142" font-size="11.5" fill="#94a3b8">validity, novelty,</text>
-      <text x="706" y="158" font-size="11.5" fill="#94a3b8">FCD, diversity, SNN</text>
+      <text x="706" y="158" font-size="11.5" fill="#94a3b8">QED, diversity, SNN</text>
       <text x="706" y="180" font-size="10.5" fill="#fcd34d" fill-opacity="0.9">goal-directed steering</text>
       <text x="706" y="195" font-size="10.5" fill="#fcd34d" fill-opacity="0.9">figure in the README</text>
     </g>
